@@ -1,0 +1,112 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f9;
+    color: #2b2d42;
+    height: 100vh;
+    margin: 0;
+}
+
+#resume {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+#contact {
+    width: 30%;
+    background-color: #2b2d42;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+img {
+    border-radius: 50%;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+#name {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+#dev {
+    margin-top: 5px;
+    font-size: 1.1rem;
+}
+
+section {
+    margin-top: 20px;
+    width: 100%;
+}
+
+section h2 {
+    margin-bottom: 10px;
+    color: #ef233c;
+}
+
+.detail {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+#info {
+    width: 70%;
+    padding: 20px;
+}
+
+.para-heading {
+    margin-bottom: 10px;
+    color: #ef233c;
+}
+
+.para,
+.exp {
+    margin-bottom: 20px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.exp {
+    list-style: disc;
+    color: black;
+    list-style: none;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+a{
+    color: black;
+}
